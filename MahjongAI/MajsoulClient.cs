@@ -344,7 +344,7 @@ namespace MahjongAI
             }
             else if (message.MethodName == ".lq.NotifyGameEndResult")
             {
-                Thread.Sleep(15000);
+                Thread.Sleep(5000);
                 Bye();
                 gameEnded = true;
                 InvokeOnGameEnd();
