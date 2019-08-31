@@ -57,6 +57,7 @@ namespace MahjongAI
         {
             lock (ws)
             {
+                Thread.Sleep(10000);
                 if (connected)
                 {
                     connected = false;
